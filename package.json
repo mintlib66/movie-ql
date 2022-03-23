@@ -1,0 +1,9 @@
+{
+  "name": "220323_graphql",
+  "version": "1.0.0",
+  "description": "movie API with graphQL",
+  "main": "index.js",
+  "repository": "https://github.com/mintlib66/movie-ql",
+  "author": "hy",
+  "license": "MIT"
+}

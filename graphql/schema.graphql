@@ -1,0 +1,20 @@
+#사용자가 뭘 할지 정의
+#정보를 db에서 받거나 db로 보냄
+type Movie {
+  id: Int!
+  title: String!
+  rating: Float!
+  summary: String!
+  language: String!
+  medium_cover_image: String!
+}
+
+type Query {
+  movies(limit: Int!, rating: Float!): [Movie]!
+  movie(id: Int!): Movie!
+}
+
+#type Mutation {
+#  addMovie(title: String!, rating: Int!): Movie!
+#  deleteMovie(id: Int!): Boolean!
+#}
